@@ -1,15 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useEffect, useState } from 'react';
-import {
-    Alert,
-    FlatList,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
-    StyleSheet,
-    Platform
-} from 'react-native';
+import { Alert, FlatList, Text, TextInput, TouchableOpacity, View, StyleSheet, Platform} from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function ToDoApp() {
